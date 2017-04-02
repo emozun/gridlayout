@@ -106,10 +106,9 @@ a:link, a:visited, a:hover, a:active{
     width: 364px;
   }
 
-  .item-m .image {
+  .item-m .image{
     height: 146px;
   }
-
   .item-l {
     width: 732px;
   }
