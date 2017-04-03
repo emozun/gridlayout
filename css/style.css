@@ -5,7 +5,7 @@
  * -------------------------------- */
 
 html{
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 body{
@@ -15,7 +15,7 @@ body{
   font-size: 1.2rem;
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
-*, *::before. *::after{
+*, *::before, *::after{
   box-sizing: border-box;
 }
 
@@ -102,16 +102,18 @@ a:link, a:visited, a:hover, a:active{
     border-color: #C1EFFF;
   }
 
-  .item-m{
-    width: 364px;
+.item-m{
+  width:364px;
+}
+
+.item-m .image{
+  height:146px;
+}
+
+.item-l{
+  width:732px;
   }
 
-  .item-m .image{
-    height: 146px;
-  }
-  .item-l {
-    width: 732px;
-  }
-  .item-l .image {
-    height: 403px;
+  .item-l .image{
+    height:403px;
   }
